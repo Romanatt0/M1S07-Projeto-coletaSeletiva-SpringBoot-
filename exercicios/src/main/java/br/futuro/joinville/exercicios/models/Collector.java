@@ -13,7 +13,7 @@ public class Collector {
     private static Long sequence = 1L;
     @Setter
     @Getter
-    private static ArrayList<Collector> Collectors = new ArrayList<>();
+    private static final ArrayList<Collector> Collectors = new ArrayList<>();
 
     @Setter(AccessLevel.PRIVATE)
     private Long id;
