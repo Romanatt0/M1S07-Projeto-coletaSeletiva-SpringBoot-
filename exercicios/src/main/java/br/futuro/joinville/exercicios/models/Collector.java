@@ -18,7 +18,8 @@ public class Collector {
     @Setter(AccessLevel.PRIVATE)
     private Long id;
     private String name;
-    private String Description;
+
+    private String description;
 
     public Collector(){
 
